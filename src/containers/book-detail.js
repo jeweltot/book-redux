@@ -5,7 +5,6 @@ class BookDetail extends Component {
     render () {
         if (!this.props.book)
         {
-            var i = 1;
             return <div>책을 선택하세요!!!!!</div>
         }
 
